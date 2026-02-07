@@ -4,7 +4,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import { useThemeContext } from '../../context/ThemeContext';
 
 const Experience = () => {
-  const { t, isRTL } = useLanguage();
+  const { t } = useLanguage();
   const { isDarkMode } = useThemeContext();
   
   const textMuted = isDarkMode ? "text-slate-400" : "text-slate-600";

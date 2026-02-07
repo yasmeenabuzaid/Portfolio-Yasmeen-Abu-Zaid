@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, ExternalLink, Github, Users, User, Lock } from 'lucide-react';
+import { Layout, ExternalLink, Users, User, Lock } from 'lucide-react';
 import { Chip, Tooltip } from '@mui/material';
 import { useLanguage } from '../../context/LanguageContext';
 import { useThemeContext } from '../../context/ThemeContext';
