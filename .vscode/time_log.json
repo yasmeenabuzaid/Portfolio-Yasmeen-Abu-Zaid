@@ -5648,6 +5648,70 @@
           "email": "yasmeenabuzaid552@gmail.com"
         },
         "timeSpent": 5
+      },
+      {
+        "date": "2026-02-07T22:46:01.023Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 6
+      },
+      {
+        "date": "2026-02-07T22:46:12.322Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 11
+      },
+      {
+        "date": "2026-02-07T22:46:56.882Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 45
+      },
+      {
+        "date": "2026-02-07T22:48:00.065Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 63
+      },
+      {
+        "date": "2026-02-07T22:48:29.747Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 30
+      },
+      {
+        "date": "2026-02-07T22:48:34.529Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 5
+      },
+      {
+        "date": "2026-02-07T22:48:38.711Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 4
+      },
+      {
+        "date": "2026-02-07T22:49:38.872Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 60
       }
     ],
     "src\\components\\sections\\Hero.jsx.git": [
@@ -5658,6 +5722,98 @@
           "email": "yasmeenabuzaid552@gmail.com"
         },
         "timeSpent": 3
+      },
+      {
+        "date": "2026-02-07T22:52:12.566Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 6
+      },
+      {
+        "date": "2026-02-07T22:52:26.725Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 14
+      },
+      {
+        "date": "2026-02-07T22:53:06.886Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 40
+      },
+      {
+        "date": "2026-02-07T22:53:52.397Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 46
+      }
+    ],
+    "src\\context\\ThemeContext.jsx.git": [
+      {
+        "date": "2026-02-07T22:45:24.309Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 6
+      }
+    ],
+    "src\\components\\sections\\Projects.jsx.git": [
+      {
+        "date": "2026-02-07T22:45:46.899Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 1
+      }
+    ],
+    ".gitignore.git": [
+      {
+        "date": "2026-02-07T22:54:56.974Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 13
+      }
+    ],
+    "package-lock.json.git": [
+      {
+        "date": "2026-02-07T22:55:43.429Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 1
+      }
+    ],
+    "package.json.git": [
+      {
+        "date": "2026-02-07T22:56:04.542Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 3
+      }
+    ],
+    "postcss.config.js.git": [
+      {
+        "date": "2026-02-07T22:56:20.504Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 2
       }
     ]
   }
