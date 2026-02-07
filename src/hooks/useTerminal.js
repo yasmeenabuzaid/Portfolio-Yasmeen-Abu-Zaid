@@ -12,7 +12,7 @@ export const useTerminal = () => {
 
   // 1. Access contexts
   const { t, isRTL } = useLanguage(); // get translations and RTL state
-  const { setIsDarkMode, isDarkMode, toggleTheme } = useThemeContext(); // theme control
+  const { toggleTheme } = useThemeContext(); // theme control
 
   // 2. Setup state and refs
   const [history, setHistory] = useState([]);  // terminal message history

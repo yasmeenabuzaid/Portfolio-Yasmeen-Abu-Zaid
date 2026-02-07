@@ -5613,6 +5613,52 @@
         },
         "timeSpent": 4
       }
+    ],
+    "src\\components\\sections\\About.jsx.git": [
+      {
+        "date": "2026-02-07T22:38:08.318Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 32
+      },
+      {
+        "date": "2026-02-07T22:38:51.873Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 44
+      },
+      {
+        "date": "2026-02-07T22:41:23.667Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 152
+      }
+    ],
+    "src\\hooks\\useTerminal.js.git": [
+      {
+        "date": "2026-02-07T22:41:54.667Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 5
+      }
+    ],
+    "src\\components\\sections\\Hero.jsx.git": [
+      {
+        "date": "2026-02-07T22:42:13.703Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 3
+      }
     ]
   }
 }
