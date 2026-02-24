@@ -5754,6 +5754,46 @@
           "email": "yasmeenabuzaid552@gmail.com"
         },
         "timeSpent": 46
+      },
+      {
+        "date": "2026-02-24T21:07:05.135Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 26
+      },
+      {
+        "date": "2026-02-24T21:07:21.626Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 13
+      },
+      {
+        "date": "2026-02-24T21:07:23.873Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 5
+      },
+      {
+        "date": "2026-02-24T21:07:30.112Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 7
+      },
+      {
+        "date": "2026-02-24T21:08:03.136Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 34
       }
     ],
     "src\\context\\ThemeContext.jsx.git": [
@@ -5814,6 +5854,24 @@
           "email": "yasmeenabuzaid552@gmail.com"
         },
         "timeSpent": 2
+      }
+    ],
+    "src\\hooks\\useTerminal.js": [
+      {
+        "date": "2026-02-08T14:26:16.883Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 49
+      },
+      {
+        "date": "2026-02-09T14:55:57.032Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 52
       }
     ]
   }
