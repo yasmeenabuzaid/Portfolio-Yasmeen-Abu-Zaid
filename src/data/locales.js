@@ -152,7 +152,33 @@ items: ['Based in Jordan', 'Analytical Thinking', 'Teamwork', 'Continuous Learni
         }
       ]
     },
-
+"experience": {
+  "title": "Experience",
+  "jobs": [
+    {
+      "role": "Software Engineer",
+      "company": "@ A-Tech (Remote)",
+      "date": "Nov 2024 - Feb 2026",
+      "points": [
+        "Spearheaded the development of enterprise-level web applications using Next.js, React, and TypeScript.",
+        "Engineered robust backend systems and secure RESTful APIs using Node.js, Express, and Laravel, leveraging AWS and Azure.",
+        "Provided training to clients ensuring smooth system onboarding and maintained detailed technical documentation in a fully remote Agile environment."
+      ],
+      "tech": ["Next.js", "React", "TypeScript", "Node.js", "Express", "Laravel", "AWS","WordPress","CL/CD"]
+    },
+    {
+      "role": "Full-Stack Web Development Trainee",
+      "company": "@ Orange Coding Academy (Hybrid)",
+      "date": "May 2024 - Nov 2024",
+      "points": [
+        "Developed 5+ full-stack web applications using React, PHP (Laravel), and MySQL.",
+        "Designed and deployed a comprehensive individual capstone project demonstrating end-to-end UI/UX design and backend logic mastery.",
+        "Collaborated within Agile/Scrum teams to build responsive projects, adhering strictly to OOP principles."
+      ],
+      "tech": ["React", "PHP", "Laravel", "MySQL", "JavaScript", "WordPress"]
+    }
+  ]
+},
 skills: {
   title: "Skills & Education",
   techTitle: "Technical Arsenal",
@@ -256,6 +282,33 @@ skills: {
   }
 ]
 ,
+"experience": {
+  "title": "الخبرات العملية",
+  "jobs": [
+    {
+      "role": "مهندسة برمجيات",
+      "company": "@ A-Tech (عن بُعد)",
+      "date": "نوفمبر 2024 - فبراير 2026",
+      "points": [
+        "قيادة تطوير تطبيقات ويب على مستوى المؤسسات باستخدام Next.js و React و TypeScript لضمان تسليم المشاريع بكفاءة.",
+        "هندسة أنظمة خلفية (Backend) قوية وواجهات برمجة تطبيقات (APIs) آمنة باستخدام Node.js و Express و Laravel مع خدمات AWS و Azure.",
+        "تقديم التدريب للعملاء لضمان سلاسة الاستخدام، والحفاظ على توثيق فني دقيق ضمن بيئة عمل Agile عن بُعد."
+      ],
+      "tech": ["Next.js", "React", "TypeScript", "Node.js", "Express", "Laravel", "AWS","WordPress","CL/CD"]
+    },
+    {
+      "role": "متدربة تطوير ويب شامل (Full-Stack)",
+      "company": "@ Orange Coding Academy (هجين)",
+      "date": "مايو 2024 - نوفمبر 2024",
+      "points": [
+        "تطوير أكثر من 5 تطبيقات ويب متكاملة باستخدام React و PHP (Laravel) و MySQL.",
+        "تصميم ونشر مشروع تخرج فردي شامل يثبت التمكن من واجهات المستخدم (UI/UX) والمنطق البرمجي الخلفي (Backend).",
+        "التعاون ضمن فرق Agile/Scrum لبناء مشاريع متجاوبة وتطبيق مبادئ البرمجة كائنية التوجه (OOP)."
+      ],
+      "tech": ["React", "PHP", "Laravel", "MySQL", "JavaScript", "WordPress"]
+    }
+  ]
+},
     projects: {
       title: "أبرز المشاريع",
       items: [

@@ -55,8 +55,8 @@ const AppContent = () => {
         <main>
           <Hero />
           <TerminalSection /> 
-          <About /> 
           <Experience /> 
+          <About /> 
           <Projects /> 
           <Skills />
           <Contact /> 

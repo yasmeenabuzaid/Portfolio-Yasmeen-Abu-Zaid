@@ -5873,6 +5873,162 @@
         },
         "timeSpent": 52
       }
+    ],
+    "public\\Yasmeen_Abu_Zaid_Software_Engineer.pdf": [
+      {
+        "date": "2026-03-02T12:58:59.676Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 5
+      }
+    ],
+    "public\\Yasmeen_Abu_Zaid_Software_Engineer.pdf.git": [
+      {
+        "date": "2026-03-02T12:59:52.620Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 1
+      }
+    ],
+    "src\\components\\common\\Navbar.jsx.git": [
+      {
+        "date": "2026-03-02T12:59:57.291Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 3
+      },
+      {
+        "date": "2026-03-02T13:00:12.436Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 15
+      },
+      {
+        "date": "2026-03-02T13:00:27.197Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 3
+      },
+      {
+        "date": "2026-03-02T13:01:11.186Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 44
+      }
+    ],
+    "src\\App.js.git": [
+      {
+        "date": "2026-03-02T13:02:07.787Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 16
+      },
+      {
+        "date": "2026-03-02T13:02:42.785Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 35
+      }
+    ],
+    "src\\components\\sections\\Experience.jsx.git": [
+      {
+        "date": "2026-03-02T13:02:54.591Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 4
+      },
+      {
+        "date": "2026-03-02T13:03:15.525Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 21
+      }
+    ],
+    "src\\data\\locales.js.git": [
+      {
+        "date": "2026-03-02T13:05:59.008Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 10
+      },
+      {
+        "date": "2026-03-02T13:07:03.395Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 65
+      },
+      {
+        "date": "2026-03-02T13:08:24.830Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 81
+      },
+      {
+        "date": "2026-03-02T13:08:38.032Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 13
+      },
+      {
+        "date": "2026-03-02T13:08:56.317Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 18
+      },
+      {
+        "date": "2026-03-02T13:10:15.237Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 79
+      },
+      {
+        "date": "2026-03-02T13:10:32.004Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 17
+      },
+      {
+        "date": "2026-03-02T13:10:58.364Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 26
+      }
     ]
   }
 }
