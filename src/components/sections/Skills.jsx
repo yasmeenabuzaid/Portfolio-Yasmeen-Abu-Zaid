@@ -40,7 +40,7 @@ const Skills = () => {
               </div>
               <div className={`p-4 ${cardBg} rounded-lg hover:-translate-y-1 transition-transform border ${borderCol} hover:border-cyan-500/50`}>
                 <h4 className="text-cyan-400 font-bold mb-2 flex items-center gap-2"><Database size={16}/> {t.skills.database}</h4>
-                <p className={`text-sm ${textMuted}`}>PostgreSQL, MySQL, SQL Server</p>
+                <p className={`text-sm ${textMuted}`}>PostgreSQL, MySQL, SQL Server, MongoDB</p>
               </div>
               <div className={`p-4 ${cardBg} rounded-lg hover:-translate-y-1 transition-transform border ${borderCol} hover:border-cyan-500/50`}>
                 <h4 className="text-cyan-400 font-bold mb-2 flex items-center gap-2"><Cpu size={16}/> {t.skills.tools}</h4>

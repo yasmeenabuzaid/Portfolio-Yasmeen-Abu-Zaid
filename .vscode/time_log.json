@@ -5882,6 +5882,30 @@
           "email": "yasmeenabuzaid552@gmail.com"
         },
         "timeSpent": 5
+      },
+      {
+        "date": "2026-03-15T09:26:42.420Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 29
+      },
+      {
+        "date": "2026-03-15T09:27:01.680Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 19
+      },
+      {
+        "date": "2026-03-15T09:27:15.760Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 14
       }
     ],
     "public\\Yasmeen_Abu_Zaid_Software_Engineer.pdf.git": [
@@ -6046,6 +6070,24 @@
           "email": "yasmeenabuzaid552@gmail.com"
         },
         "timeSpent": 7
+      },
+      {
+        "date": "2026-03-05T04:08:27.201Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 6
+      }
+    ],
+    "src\\components\\sections\\Skills.jsx.git": [
+      {
+        "date": "2026-03-15T09:28:01.589Z",
+        "user": {
+          "name": "yasmeenabuzaid",
+          "email": "yasmeenabuzaid552@gmail.com"
+        },
+        "timeSpent": 8
       }
     ]
   }
