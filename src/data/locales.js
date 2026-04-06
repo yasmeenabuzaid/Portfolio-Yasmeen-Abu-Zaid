@@ -4,7 +4,7 @@ export const translations = {
 hero: {
   greeting: 'Hi, I’m',
   role: 'I design and develop high-performance web applications.',
-  desc: 'Software Engineer and Full-Stack Developer from Jordan, specializing in the MERN stack. I combine creativity with technical solutions to deliver secure, scalable web applications with a seamless user experience.',
+  desc: ' Full-Stack Software Engineer from Jordan, specializing in the MERN stack. I combine creativity with technical solutions to deliver secure, scalable web applications with a seamless user experience.',
   checkWork: 'Check my work',
   downloadCv: 'Download CV'
 },
@@ -244,8 +244,7 @@ skills: {
  hero: {
   greeting: 'مرحباً، أنا',
   role: 'أبتكر وأطور تطبيقات ويب عالية الأداء.',
-  desc: 'مهندسة برمجيات ومطورة Full-Stack من الأردن، متخصصة في تقنيات MERN، أدمج بين الإبداع والحلول التقنية لتقديم تطبيقات ويب آمنة، قابلة للتوسع، وتجربة مستخدم سلسة.',
-  checkWork: 'شاهد أعمالي',
+desc: 'Full-Stack Software Engineer من الأردن، متخصصة في تقنيات MERN، أطور تطبيقات ويب حديثة تجمع بين الأداء العالي، الأمان، وقابلية التوسع مع تجربة مستخدم مميزة.',  checkWork: 'شاهد أعمالي',
   downloadCv: 'تحميل السيرة الذاتية'
 },
 
