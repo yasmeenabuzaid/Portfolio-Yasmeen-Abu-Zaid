@@ -86,14 +86,47 @@ items: ['Based in Jordan', 'Analytical Thinking', 'Teamwork', 'Continuous Learni
         //   githubLink: "#", 
         //   demoLink: "#"
         // },
-
+{
+          title: "360° Interactive Image Viewer",
+          desc: "An immersive 3D panoramic image viewer built with high-performance rendering capabilities, allowing users to explore spaces dynamically.",
+           note: "The live demo uses free hosting tiers. If the site doesn't load due to ISP blocks, try using mobile data", 
+          tags: ["Next.js", "Three.js", "React", "WebGL"],
+          isTeam: false,
+          isPrivate: false,
+          githubLink: "https://github.com/yasmeenabuzaid/OmniView.git", 
+          demoLink: "https://lnkd.in/dUztGxW5" 
+        },
+    {
+    title: "Remote Digital Services Platform",
+    desc: "A freelance task for an international client featuring a decoupled architecture (separated frontend and backend). Focused on implementing secure business logic, API integrations, and responsive UI components.",
+ note: "The live demo uses free hosting tiers. If the site doesn't load due to ISP blocks, try using mobile data. Please also allow a few extra seconds for the backend's initial cold start.", 
+    tags: ["Next.js", "Node.js", "Sequelize", "MUI", "Tailwind CSS"],
+    isTeam: false,
+    isPrivate: false, 
+    githubLinks: [
+        { label: "Frontend", url: "https://github.com/yasmeenabuzaid/onlinemihna-technical-task-frontend.git" },
+        { label: "Backend", url: "https://github.com/yasmeenabuzaid/onlinemihna-technical-task-backend.git" }
+    ],
+    videoLink: "https://youtu.be/0rx9gTDoy2U", 
+    demoLink: "https://onlinemihna-technical-task-frontend.vercel.app/en" 
+} ,
+{
+          title: "JavaScript Problem Solving (Codewars)",
+          desc: "A continuous journey of tackling algorithmic challenges to improve analytical thinking. Focused on breaking down problems, designing algorithms, and writing clean, maintainable code.",
+          note: "Strategy: I solve problems using two approaches—manual low-level logic (to understand the hood) and modern JS methods like .map() and .reduce() (for efficiency).",
+          tags: ["JavaScript", "Problem Solving", "Algorithms", "Clean Code"],
+          isTeam: false,
+          isPrivate: false,
+          githubLink: "https://github.com/yasmeenabuzaid/codewars-javascript-solutions.git", 
+          demoLink: "#" 
+        },
         {
           title: "Salonak",
-          desc: "A web platform that connects beauty salons with customers, allowing easy appointment booking, service comparison, and viewing previous customer reviews.",
+note: "This was my capstone project at Orange Coding Academy. I am currently working on a major design overhaul and will be publishing it live very soon.",          desc: "A web platform that connects beauty salons with customers, allowing easy appointment booking, service comparison, and viewing previous customer reviews.",
           tags: ["Laravel", "Booking System", "Dashboard", "MVC", "MySQL"],
           isTeam: false,
           isPrivate: false,
-          githubLink: "#",
+          githubLink: "https://github.com/yasmeenabuzaid/masterpiece.git",
           demoLink: "#"
         },
         {
@@ -105,15 +138,15 @@ items: ['Based in Jordan', 'Analytical Thinking', 'Teamwork', 'Continuous Learni
           githubLink: "#",
           demoLink: "#"
         },
-        {
-          title: "Weather Data Application",
-          desc: "Built a web application to display weather data for different regions, with an interactive interface and dynamic maps.",
-          tags: ["React", "API Integration", "Chart.js", "Tailwind CSS"],
-          isTeam: false,
-          isPrivate: false,
-          githubLink: "https://github.com/yourusername/weather",
-          demoLink: "#"
-        },
+        // {
+        //   title: "Weather Data Application",
+        //   desc: "Built a web application to display weather data for different regions, with an interactive interface and dynamic maps.",
+        //   tags: ["React", "API Integration", "Chart.js", "Tailwind CSS"],
+        //   isTeam: false,
+        //   isPrivate: false,
+        //   githubLink: "https://github.com/yourusername/weather",
+        //   demoLink: "#"
+        // },
         {
           title: "E-commerce Store",
           desc: "Developed a full-featured e-commerce platform with product management, shopping cart, online payment, and seamless user experience.",
@@ -322,14 +355,49 @@ skills: {
         //   demoLink: "#"
         // },
 
-  
+  {
+          title: "مستعرض صور 360 درجة",
+          desc: "مستعرض تفاعلي للصور البانورامية ثلاثية الأبعاد، يوفر تجربة مستخدم سلسة وأداء عالي في عرض الرسوميات، مما يتيح للمستخدمين استكشاف المساحات بشكل ديناميكي.",
+          note: "يعتمد الرابط الحي على استضافة مجانية. إذا لم يفتح الموقع بسبب حظر بعض مزودي الخدمة (ISP)، يرجى محاولة فتح الرابط باستخدام بيانات الهاتف (Mobile Data).",
+          tags: ["Next.js", "Three.js", "React", "WebGL"],
+          isTeam: false,
+          isPrivate: false,
+          githubLink: "https://github.com/yasmeenabuzaid/OmniView.git", 
+          demoLink: "https://lnkd.in/dUztGxW5" 
+        },
+        {
+          title: "تحديات الخوارزميات (Codewars)",
+          desc: "رحلة مستمرة في حل التحديات البرمجية لتطوير التفكير التحليلي. يركز هذا المستودع على تحليل المشاكل، هندسة الخوارزميات، وكتابة كود نظيف وقابل للصيانة.",
+          note: "استراتيجية الحل: أعتمد على طريقتين—بناء المنطق من الصفر (Manual Logic) لفهم الأساسيات، واستخدام دوال JavaScript الحديثة لكتابة كود مختصر وفعال.",
+          tags: ["JavaScript", "Problem Solving", "Algorithms", "Clean Code"],
+          isTeam: false,
+          isPrivate: false,
+          githubLink: "https://github.com/yasmeenabuzaid/codewars-javascript-solutions.git",
+          demoLink: "#" 
+        },
+        {
+          title: "منصة خدمات رقمية (عمل حر)",
+          desc: "مهمة عمل حر لعميل دولي مبنية بهيكلية برمجية مفصولة (Decoupled Architecture). يركز المشروع على بناء منطق برمجي آمن (Business Logic)، الربط مع واجهات برمجة التطبيقات (APIs)، وتطوير واجهات مستخدم متجاوبة.",
+          note: "يعتمد الرابط الحي على استضافة مجانية. إذا لم يفتح الموقع جرب استخدام بيانات الهاتف. يرجى أيضاً الانتظار بضع ثوانٍ إضافية عند التحميل الأول للسيرفر (Cold Start).", 
+          tags: ["Next.js", "Node.js", "Sequelize", "MUI", "Tailwind CSS"],
+          isTeam: false,
+          isPrivate: false, 
+          githubLinks: [
+            { label: "Frontend", url: "https://github.com/yasmeenabuzaid/onlinemihna-technical-task-frontend.git" },
+            { label: "Backend", url: "https://github.com/yasmeenabuzaid/onlinemihna-technical-task-backend.git" }
+          ],
+          videoLink: "https://youtu.be/0rx9gTDoy2U", 
+          demoLink: "https://onlinemihna-technical-task-frontend.vercel.app/en" 
+        },
         {
           title: "Salonak",
+          note: "هذا المشروع كان مشروع تخرجي من أكاديمية أورنج للبرمجة. أعمل حالياً على تحديث جوهري وشامل للتصميم، وسيتم نشره لايف في القريب العاجل.",
           desc: "منصة ويب تربط صالونات التجميل بالعملاء، وتتيح حجز المواعيد بسهولة، ومقارنة الخدمات، والاطلاع على تقييمات العملاء السابقة.",
           tags: ["Laravel", "نظام الحجز", "لوحة التحكم", "MVC", "MySQL"],
           isTeam: false,
           isPrivate: false,
-          githubLink: "#",
+          githubLink: "https://github.com/yasmeenabuzaid/masterpiece.git",
+
           demoLink: "#"
         },
         {
@@ -341,15 +409,15 @@ skills: {
           githubLink: "#",
           demoLink: "#"
         },
-        {
-          title: "تطبيق عرض بيانات الطقس",
-          desc: "تطوير تطبيق ويب لعرض بيانات الطقس للمناطق المختلفة، مع واجهة تفاعلية وخرائط ديناميكية.",
-          tags: ["React", "API Integration", "Chart.js", "Tailwind CSS"],
-          isTeam: false,
-          isPrivate: false,
-          githubLink: "https://github.com/yourusername/weather",
-          demoLink: "#"
-        },
+        // {
+        //   title: "تطبيق عرض بيانات الطقس",
+        //   desc: "تطوير تطبيق ويب لعرض بيانات الطقس للمناطق المختلفة، مع واجهة تفاعلية وخرائط ديناميكية.",
+        //   tags: ["React", "API Integration", "Chart.js", "Tailwind CSS"],
+        //   isTeam: false,
+        //   isPrivate: false,
+        //   githubLink: "https://github.com/yourusername/weather",
+        //   demoLink: "#"
+        // },
         {
           title: "متجر إلكتروني",
           desc: "إنشاء متجر إلكتروني متكامل مع إدارة المنتجات، سلة التسوق، الدفع الإلكتروني، وتجربة مستخدم سلسة.",

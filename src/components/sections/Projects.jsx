@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, ExternalLink, Users, User, Lock } from 'lucide-react';
+import { Layout, ExternalLink, Users, User, Lock, Github, PlayCircle, Lightbulb } from 'lucide-react';
 import { Chip, Tooltip } from '@mui/material';
 import { useLanguage } from '../../context/LanguageContext';
 import { useThemeContext } from '../../context/ThemeContext';
@@ -42,8 +42,8 @@ const Projects = () => {
                                     </Tooltip>
                                 </div>
 
-                                <div className="flex gap-3">
-                                    {/* GitHub / Private Lock */}
+                                <div className="flex gap-3 items-center">
+                                    {/* Private Lock */}
                                     {project.isPrivate ? (
                                         <Tooltip title="Private Repository (Company Confidential)" placement="left">
                                             <div className="p-1">
@@ -51,15 +51,46 @@ const Projects = () => {
                                             </div>
                                         </Tooltip>
                                     ) : (
-                                        <a href={project.githubLink} target="_blank" rel="noreferrer" aria-label="View Code">
-                                            {/* <Github size={20} className={`${textMuted} hover:text-cyan-400 cursor-pointer transition-colors`} /> */}
-                                        </a>
+                                        <>
+                                            {/* Single Default GitHub Link */}
+                                            {project.githubLink && project.githubLink !== "#" && !project.githubLinks && (
+                                                <Tooltip title="View Source Code" placement="top">
+                                                    <a href={project.githubLink} target="_blank" rel="noreferrer" aria-label="View Code">
+                                                        <Github size={20} className={`${textMuted} hover:text-cyan-400 cursor-pointer transition-colors`} />
+                                                    </a>
+                                                </Tooltip>
+                                            )}
+
+                                            {/* Multiple GitHub Links (Frontend / Backend) */}
+                                            {project.githubLinks && project.githubLinks.map((repo, rIdx) => (
+                                                <Tooltip key={rIdx} title={`${repo.label} Repository`} placement="top">
+                                                    <a href={repo.url} target="_blank" rel="noreferrer" aria-label={`View ${repo.label} Code`} className="flex items-center gap-1 group/repo">
+                                                        <Github size={18} className={`${textMuted} group-hover/repo:text-cyan-400 transition-colors`} />
+                                                        <span className={`text-[10px] font-mono font-bold ${textMuted} group-hover/repo:text-cyan-400`}>
+                                                            {repo.label === "Frontend" ? "FE" : repo.label === "Backend" ? "BE" : repo.label}
+                                                        </span>
+                                                    </a>
+                                                </Tooltip>
+                                            ))}
+                                        </>
+                                    )}
+
+                                    {/* Video Demo Link */}
+                                    {project.videoLink && project.videoLink !== "#" && (
+                                        <Tooltip title="Watch Demo Video" placement="top">
+                                            <a href={project.videoLink} target="_blank" rel="noreferrer" aria-label="Watch Video">
+                                                <PlayCircle size={20} className={`${textMuted} hover:text-rose-400 cursor-pointer transition-colors`} />
+                                            </a>
+                                        </Tooltip>
                                     )}
                                     
+                                    {/* Live Demo Link */}
                                     {project.demoLink && project.demoLink !== "#" && (
-                                        <a href={project.demoLink} target="_blank" rel="noreferrer" aria-label="View Demo">
-                                            <ExternalLink size={20} className={`${textMuted} hover:text-cyan-400 cursor-pointer transition-colors`} />
-                                        </a>
+                                        <Tooltip title="Live Preview" placement="top">
+                                            <a href={project.demoLink} target="_blank" rel="noreferrer" aria-label="View Demo">
+                                                <ExternalLink size={20} className={`${textMuted} hover:text-cyan-400 cursor-pointer transition-colors`} />
+                                            </a>
+                                        </Tooltip>
                                     )}
                                 </div>
                             </div>
@@ -71,10 +102,24 @@ const Projects = () => {
                             
                             <div className={`${textMuted} text-sm mb-6 flex-grow`}>
                                 <p>{project.desc}</p>
+                                
+                                {/* Private Info Note */}
                                 {project.isPrivate && (
                                     <p className="mt-3 text-xs text-amber-500/80 italic border-l-2 border-amber-500/30 pl-2">
                                         * Architecture & Contribution shown. Code is proprietary.
                                     </p>
+                                )}
+
+                                {/*  Custom Note Section */}
+                                {project.note && (
+                                    <div className={`mt-4 p-3 rounded border text-xs leading-relaxed flex items-start gap-2 transition-colors ${
+                                        isDarkMode 
+                                        ? 'bg-cyan-950/30 border-cyan-900/50 text-cyan-200/80' 
+                                        : 'bg-cyan-50 border-cyan-100 text-cyan-800'
+                                    }`}>
+                                        <Lightbulb size={14} className="mt-0.5 shrink-0 text-cyan-500" />
+                                        <span>{project.note}</span>
+                                    </div>
                                 )}
                             </div>
 

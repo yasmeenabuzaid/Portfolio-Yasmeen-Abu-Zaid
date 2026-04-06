@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Github } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { useThemeContext } from '../../context/ThemeContext';
 
@@ -30,7 +30,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
           
           <a href="mailto:yasmeenabuzaid552@gmail.com" 
              className={`group p-8 rounded-2xl border ${borderCol} ${cardBg} transition-all duration-300 hover:-translate-y-2 flex flex-col items-center justify-center gap-4`}>
@@ -69,6 +69,17 @@ const Contact = () => {
             </div>
             <h3 className={`font-bold text-lg ${headingColor}`}>LinkedIn</h3>
             <span className={`text-sm ${textMuted}`}>Connect with me</span>
+          </a>
+
+          <a href="https://github.com/yasmeenabuzaid" 
+             target="_blank" 
+             rel="noreferrer"
+             className={`group p-8 rounded-2xl border ${borderCol} ${cardBg} transition-all duration-300 hover:-translate-y-2 flex flex-col items-center justify-center gap-4`}>
+            <div className="w-14 h-14 rounded-full bg-slate-500/10 flex items-center justify-center text-slate-500 dark:text-slate-400 group-hover:bg-slate-800 group-hover:text-white dark:group-hover:bg-slate-600 transition-all">
+              <Github size={28} />
+            </div>
+            <h3 className={`font-bold text-lg ${headingColor}`}>GitHub</h3>
+            <span className={`text-sm ${textMuted}`}>View my repos</span>
           </a>
 
         </div>
