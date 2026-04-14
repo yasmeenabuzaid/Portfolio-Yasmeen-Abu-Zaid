@@ -48,7 +48,7 @@ const Hero = () => {
    
             
             <Button 
-              href="/Yasmeen_Abu_Zaid_Software_Engineer_CV.pdf" 
+              href="/Yasmeen_Abu_Zaid_Full_Stack_Software_Engineer_CV.pdf" 
               target="_blank"
               variant="contained"
               size="large"

@@ -11,10 +11,10 @@ hero: {
 
 about: {
   title: 'About Me',
-  p1: "I'm a high-achieving undergraduate at Aqaba University of Technology and a Diploma holder in Information Security (Ranked first in her class within the Governorate).",
-p2: "My journey is one of continuous growth, combining ongoing learning, hands-on experience, and persistent effort. From understanding and analyzing complex code to building advanced and efficient web applications.",
+  p1: "I'm a dedicated Full-Stack Software Engineer with over two years of hands-on experience, and a Diploma holder in Information Security (Ranked first in the governorate).",
+  p2: "My journey is one of continuous growth, combining ongoing learning, hands-on experience, and persistent effort. From understanding and analyzing complex code to building advanced and efficient web applications.",
   current: "Currently working remotely as a Full-Stack Developer.",
-items: ['Based in Jordan', 'Analytical Thinking', 'Teamwork', 'Continuous Learning', 'Problem Solving', 'Effective Communication']
+  items: ['Based in Jordan', 'Analytical Thinking', 'Teamwork', 'Continuous Learning', 'Problem Solving', 'Effective Communication']
 },
   jobs: [
   {
@@ -220,7 +220,7 @@ skills: {
   backend: "Backend",
   database: "Database",
   tools: "Tools",
-  edu1: { title: "Bachelor in Software Engineering", place: "Aqaba University of Technology", year: "2025-2027" },
+  // edu1: { title: "Bachelor in Software Engineering", place: "Aqaba University of Technology", year: "2025-2027" },
   edu2: { title: "Diploma in Info Security", place: "Al-Balqa Applied University", year: "2022-2024", badge: "First in her class within the Governorate" }
 },
 
@@ -248,15 +248,13 @@ desc: 'Full-Stack Software Engineer من الأردن، متخصصة في تقن
   downloadCv: 'تحميل السيرة الذاتية'
 },
 
-    about: {
-      title: 'نبذة عني',
-      p1: "طالبة متفوقة في جامعة العقبة للتكنولوجيا وحاصلة على دبلوم أمن المعلومات (الأولى في سنتها بالمحافظة).",
-       p2: "رحلتي هي رحلة تطوير مستمر، تجمع بين التعلم المستمر، الخبرة العملية، والجهد المتواصل. من فهم وتحليل الأكواد المعقدة إلى بناء تطبيقات ويب متقدمة وفعّالة.",
-
-      current: "أعمل حالياً كمطورة Full-Stack عن بعد.",
-      items: ['مقرها الأردن', 'تفكير تحليلي', 'عمل ضمن فريق', 'تعلم مستمر', 'حل المشكلات', 'اتصال فعال']
-
-    },
+  about: {
+  title: 'نبذة عني',
+  p1: "أنا مهندسة برمجيات (Full-Stack) بخبرة عملية تتجاوز السنتين، وحاصلة على دبلوم في أمن المعلومات (الأولى على المحافظة).",
+  p2: "رحلتي هي رحلة تطوير مستمر، تجمع بين التعلم المستمر، الخبرة العملية، والجهد المتواصل. من فهم وتحليل الأكواد المعقدة إلى بناء تطبيقات ويب متقدمة وفعّالة.",
+  current: "أعمل حالياً كمطورة Full-Stack عن بعد.",
+  items: ['أقيم في الأردن', 'تفكير تحليلي', 'العمل ضمن فريق', 'تعلم مستمر', 'حل المشكلات', 'تواصل فعّال']
+},
   jobs: [
   {
     role: 'مطور ويب شامل',
@@ -463,7 +461,7 @@ desc: 'Full-Stack Software Engineer من الأردن، متخصصة في تقن
       backend: "واجهات خلفية",
       database: "قواعد بيانات",
       tools: "أدوات",
-      edu1: { title: "بكالوريوس هندسة برمجيات", place: "جامعة العقبة للتكنولوجيا", year: "2025-2027" },
+      // edu1: { title: "بكالوريوس هندسة برمجيات", place: "جامعة العقبة للتكنولوجيا", year: "2025-2027" },
       edu2: { title: "دبلوم أمن المعلومات والشبكات", place: "جامعة البلقاء التطبيقية", year: "2022-2024", badge: "الأولى في سنتها بالمحافظة" }
     },
     contact: {
