@@ -55,28 +55,32 @@ const Skills = () => {
               <Award className="text-purple-400" /> {t.skills.eduTitle}
             </h3>
             
-            <div className={`${cardBg} p-6 rounded-lg border-l-4 rtl:border-l-0 rtl:border-r-4 border-cyan-500 transition-colors`}>
-              <div className="flex justify-between items-start">
-                <div>
-                  <h4 className={`text-lg font-bold ${isDarkMode ? 'text-slate-100' : 'text-slate-800'}`}>{t.skills.edu1.title}</h4>
-                  <p className={textMuted}>{t.skills.edu1.place}</p>
+            {t.skills.edu1 && (
+              <div className={`${cardBg} p-6 rounded-lg border-l-4 rtl:border-l-0 rtl:border-r-4 border-cyan-500 transition-colors`}>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h4 className={`text-lg font-bold ${isDarkMode ? 'text-slate-100' : 'text-slate-800'}`}>{t.skills.edu1.title}</h4>
+                    <p className={textMuted}>{t.skills.edu1.place}</p>
+                  </div>
+                  <span className="text-xs font-mono text-cyan-400 bg-cyan-900/10 px-2 py-1 rounded">{t.skills.edu1.year}</span>
                 </div>
-                <span className="text-xs font-mono text-cyan-400 bg-cyan-900/10 px-2 py-1 rounded">{t.skills.edu1.year}</span>
               </div>
-            </div>
+            )}
 
-            <div className={`${cardBg} p-6 rounded-lg border-l-4 rtl:border-l-0 rtl:border-r-4 border-purple-500 transition-colors`}>
-              <div className="flex justify-between items-start mb-2">
-                <div>
-                  <h4 className={`text-lg font-bold ${isDarkMode ? 'text-slate-100' : 'text-slate-800'}`}>{t.skills.edu2.title}</h4>
-                  <p className={textMuted}>{t.skills.edu2.place}</p>
+            {t.skills.edu2 && (
+              <div className={`${cardBg} p-6 rounded-lg border-l-4 rtl:border-l-0 rtl:border-r-4 border-purple-500 transition-colors`}>
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h4 className={`text-lg font-bold ${isDarkMode ? 'text-slate-100' : 'text-slate-800'}`}>{t.skills.edu2.title}</h4>
+                    <p className={textMuted}>{t.skills.edu2.place}</p>
+                  </div>
+                  <span className="text-xs font-mono text-purple-400 bg-purple-900/10 px-2 py-1 rounded">{t.skills.edu2.year}</span>
                 </div>
-                <span className="text-xs font-mono text-purple-400 bg-purple-900/10 px-2 py-1 rounded">{t.skills.edu2.year}</span>
+                <div className="inline-flex items-center gap-2 text-xs font-bold text-yellow-600 bg-yellow-400/20 px-3 py-1 rounded-full">
+                  <Award size={14} /> {t.skills.edu2.badge}
+                </div>
               </div>
-              <div className="inline-flex items-center gap-2 text-xs font-bold text-yellow-600 bg-yellow-400/20 px-3 py-1 rounded-full">
-                <Award size={14} /> {t.skills.edu2.badge}
-              </div>
-            </div>
+            )}
           </div>
         </div>
       </div>

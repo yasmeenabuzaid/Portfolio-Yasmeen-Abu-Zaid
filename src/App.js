@@ -36,6 +36,11 @@ const AppContent = () => {
   // run animations when elements come into view
   useReveal(); // triggers scroll animations for sections
 
+  React.useEffect(() => {
+    document.body.style.backgroundColor = isDarkMode ? '#020617' : '#f8fafc';
+    document.body.style.color = isDarkMode ? '#e2e8f0' : '#334155';
+  }, [isDarkMode]);
+
   const bgMain = isDarkMode ? "bg-slate-950" : "bg-slate-50"; // main background color
   const textMain = isDarkMode ? "text-slate-200" : "text-slate-700"; // main text color
 
