@@ -2,7 +2,7 @@
   "name": "Portfolio | Yasmeen Abu Zaid",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yasmeen-m-abuzaid.github.io/Portfolio-Yasmeen-Abu-Zaid", 
+  "homepage": "https://yasmeenabuzaid.github.io/Portfolio-Yasmeen-Abu-Zaid",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
