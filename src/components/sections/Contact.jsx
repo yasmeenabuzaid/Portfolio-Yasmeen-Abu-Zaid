@@ -73,13 +73,13 @@ const Contact = () => {
               {/* Info Rows */}
               <div className="space-y-6 flex-grow">
                 {/* Email */}
-                <a href="mailto:yasmeenabuzaid552@gmail.com" className="flex items-start gap-4 group">
+                <a href="mailto:yasmeen.m.abuzaid@gmail.com" className="flex items-start gap-4 group">
                   <div className="w-12 h-12 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-white transition-colors shrink-0">
                     <Mail size={20} />
                   </div>
                   <div>
                     <p className={`text-xs font-bold uppercase tracking-wider ${textMuted} mb-1`}>Email</p>
-                    <p className={`font-medium ${headingColor} group-hover:text-cyan-400 transition-colors break-all text-sm`}>yasmeenabuzaid552@gmail.com</p>
+                    <p className={`font-medium ${headingColor} group-hover:text-cyan-400 transition-colors break-all text-sm`}>yasmeen.m.abuzaid@gmail.com</p>
                   </div>
                 </a>
 

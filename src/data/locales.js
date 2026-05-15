@@ -2,9 +2,9 @@ export const translations = {
   en: {
     nav: { about: 'About', experience: 'Experience', projects: 'Projects', skills: 'Skills', contact: 'Contact', hire: 'Hire Me' },
 hero: {
-  greeting: 'Hi, I’m',
-  role: 'I design and develop high-performance web applications.',
-  desc: ' Full-Stack Software Engineer from Jordan, specializing in the MERN stack. I combine creativity with technical solutions to deliver secure, scalable web applications with a seamless user experience.',
+  greeting: 'hello, I’m',
+role: 'Full-Stack Software Engineer',
+  desc: ' Full-Stack Software Engineer from Jordan . I combine creativity with technical solutions to deliver secure, scalable web applications with a seamless user experience.',
   checkWork: 'Check my work',
   downloadCv: 'Download CV'
 },
@@ -86,6 +86,25 @@ about: {
         //   githubLink: "#", 
         //   demoLink: "#"
         // },
+        {
+          title: "TradeX | Advanced Trading Automation",
+          desc: "A comprehensive Full-Stack platform , featuring a luxury-themed design, smooth animations, and immersive 3D elements. It includes a fully automated system for digital product delivery, seamlessly managed through a secure, hidden admin panel.",
+          tags: ["Next.js", "Node.js", "3D UI/UX", "Automation", "Full-Stack"],
+          isTeam: false,
+          isPrivate: false,
+          githubLink: "#",
+          demoLink: "https://www.tradexautomatic.com/",
+          videoLink: "/Portfolio-Yasmeen-Abu-Zaid/demo/tradex-demo.mp4"
+        },
+        {
+          title: "Enterprise POS & E-Invoicing System",
+          desc: "Developed a comprehensive Point of Sale (POS) system integrated with an advanced e-invoicing and billing module. Engineered complex logic to manage billing cycles, automated subscriptions, tax calculations, and secure payment gateway integrations.",
+          tags: ["Next.js", "Node.js", "PostgreSQL", "Billing Systems", "SaaS"],
+          isTeam: true,
+          isPrivate: true,
+          githubLink: "#",
+          demoLink: "#"
+        },
 {
           title: "360° Interactive Image Viewer",
           desc: "An immersive 3D panoramic image viewer built with high-performance rendering capabilities, allowing users to explore spaces dynamically.",
@@ -220,8 +239,8 @@ skills: {
   backend: "Backend",
   database: "Database",
   tools: "Tools",
-  // edu1: { title: "Bachelor in Software Engineering", place: "Aqaba University of Technology", year: "2025-2027" },
-  edu2: { title: "Diploma in Info Security", place: "Al-Balqa Applied University", year: "2022-2024", badge: "First in her class within the Governorate" }
+  edu1: { title: "Bachelor in Software Engineering", place: "Aqaba University of Technology" },
+  edu2: { title: "Diploma in Info Security", place: "Al-Balqa Applied University", badge: "First in her class within the Governorate" }
 },
 
     contact: {
@@ -243,8 +262,8 @@ skills: {
     nav: { about: 'من أنا', experience: 'الخبرة', projects: 'المشاريع', skills: 'المهارات', contact: 'تواصل', hire: 'وظفني' },
  hero: {
   greeting: 'مرحباً، أنا',
-  role: 'أبتكر وأطور تطبيقات ويب عالية الأداء.',
-desc: 'Full-Stack Software Engineer من الأردن، متخصصة في تقنيات MERN، أطور تطبيقات ويب حديثة تجمع بين الأداء العالي، الأمان، وقابلية التوسع مع تجربة مستخدم مميزة.',  checkWork: 'شاهد أعمالي',
+role: 'مهندسة برمجيات (Full-Stack)',
+desc: 'Full-Stack Software Engineer من الأردن،أطور تطبيقات ويب حديثة تجمع بين الأداء العالي، الأمان، وقابلية التوسع مع تجربة مستخدم مميزة.',  checkWork: 'شاهد أعمالي',
   downloadCv: 'تحميل السيرة الذاتية'
 },
 
@@ -351,6 +370,26 @@ desc: 'Full-Stack Software Engineer من الأردن، متخصصة في تقن
         //   githubLink: "#",
         //   demoLink: "#"
         // },
+      
+   {
+          title: "تريد إكس | أتمتة التداول المتقدمة",
+          desc: "منصة متكاملة (Full-Stack) تتميز بتصميم فاخر وتجربة مستخدم غنية بالحركات الانسيابية والعناصر ثلاثية الأبعاد. تتضمن المنصة نظاماً مؤتمتاً بالكامل لتسليم المنتجات الرقمية، يتم إدارته بسلاسة عبر لوحة تحكم مخفية وآمنة.",
+          tags: ["Next.js", "Node.js", "3D UI/UX", "Automation", "Full-Stack"],
+          isTeam: false,
+          isPrivate: false,
+          githubLink: "#",
+          demoLink: "https://www.tradexautomatic.com/",
+          videoLink: "/Portfolio-Yasmeen-Abu-Zaid/demo/tradex-demo.mp4" 
+        },
+        {
+          title: "نظام نقاط البيع والفلترة الإلكترونية للمؤسسات",
+          desc: "تطوير نظام متكامل لنقاط البيع (POS) مرتبط بوحدة متطورة للفواتير الإلكترونية. تم بناء خوارزميات معقدة لإدارة دورات الفوترة، الاشتراكات المؤتمتة، حسابات الضرائب، والربط الآمن مع بوابات الدفع الإلكتروني.",
+          tags: ["Next.js", "Node.js", "PostgreSQL", "Billing Systems", "SaaS"],
+          isTeam: true,
+          isPrivate: true,
+          githubLink: "#",
+          demoLink: "#"
+        },
 
   {
           title: "مستعرض صور 360 درجة",
@@ -461,8 +500,8 @@ desc: 'Full-Stack Software Engineer من الأردن، متخصصة في تقن
       backend: "واجهات خلفية",
       database: "قواعد بيانات",
       tools: "أدوات",
-      // edu1: { title: "بكالوريوس هندسة برمجيات", place: "جامعة العقبة للتكنولوجيا", year: "2025-2027" },
-      edu2: { title: "دبلوم أمن المعلومات والشبكات", place: "جامعة البلقاء التطبيقية", year: "2022-2024", badge: "الأولى في سنتها بالمحافظة" }
+      edu1: { title: "بكالوريوس هندسة برمجيات", place: "جامعة العقبة للتكنولوجيا" },
+      edu2: { title: "دبلوم أمن المعلومات والشبكات", place: "جامعة البلقاء التطبيقية", badge: "الأولى في سنتها بالمحافظة" }
     },
     contact: {
       subtitle: "لنتحدث",
