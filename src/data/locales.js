@@ -8,7 +8,7 @@ role: 'Full-Stack Software Engineer',
   checkWork: 'Check my work',
   downloadCv: 'Download CV'
 },
-
+ 
 about: {
   title: 'About Me',
   p1: "I'm a dedicated Full-Stack Software Engineer with over two years of hands-on experience, and a Diploma holder in Information Security (Ranked first in the governorate).",
