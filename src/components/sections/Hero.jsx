@@ -48,7 +48,7 @@ const Hero = () => {
    
             
             <Button 
-              href="Portfolio-Yasmeen-Abu-Zaid/yasmeen-abu-zaid-software-engineer.pdf" 
+           href={process.env.PUBLIC_URL + '/yasmeen-abu-zaid-software-engineer.pdf'}
               target="_blank"
               variant="contained"
               size="large"
