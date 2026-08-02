@@ -51,7 +51,7 @@ const Contact = () => {
       <div className="container mx-auto px-6 reveal-section max-w-6xl">
         
         <div className="text-center mb-16">
-          <span className="text-cyan-400 font-mono text-xl">04.</span>
+          <span className="text-cyan-400 font-mono text-xl">06.</span>
           <h2 className={`text-4xl md:text-5xl font-bold ${headingColor} mt-2 mb-4 tracking-tight`}>
             {t.contact.title}
           </h2>
@@ -109,7 +109,7 @@ const Contact = () => {
               <div className="pt-8 mt-8 border-t border-slate-200 dark:border-slate-700/50">
                 <p className={`text-xs font-bold uppercase tracking-wider ${textMuted} mb-4`}>Social Profiles</p>
                 <div className="flex gap-3">
-                  <a href="www.linkedin.com/in/yasmeen-mohammad-abu-zaid-1b492830a" target="_blank" rel="noreferrer" 
+                  <a href="https://www.linkedin.com/in/yasmeen-mohammad-abu-zaid-1b492830a" target="_blank" rel="noreferrer" 
                      className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 hover:bg-blue-500 hover:text-white hover:-translate-y-1 transition-all">
                     <Linkedin size={20} />
                   </a>
