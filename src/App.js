@@ -8,7 +8,7 @@ import { LanguageProvider, useLanguage } from './context/LanguageContext';
 // context to handle language and RTL/LTR
 import { getAppTheme } from './theme/AppTheme'; 
 // function that returns the theme based on dark/light
-import { useReveal } from './hooks/useRevealOnScroll'; 
+import { useReveal } from './hooks/useRevealOnScroll';
 // custom hook to reveal elements on scroll
 
 // Components
@@ -21,41 +21,32 @@ import About from './components/sections/About';
 import Experience from './components/sections/Experience'; 
 import Projects from './components/sections/Projects'; 
 import Skills from './components/sections/Skills'; 
+import Certifications from './components/sections/Certifications'; 
 import Contact from './components/sections/Contact'; 
 
 const AppContent = () => {
-  //-----------------------------------------------
   const { isDarkMode } = useThemeContext(); 
-  // get dark mode state from context
   const { isRTL } = useLanguage();
-   // get language direction (rtl/ltr) from context
   const theme = getAppTheme(isDarkMode);
- // get the actual MUI theme object
-  //-----------------------------------------------
 
-  // run animations when elements come into view
-  useReveal(); // triggers scroll animations for sections
+  useReveal(); 
 
   React.useEffect(() => {
     document.body.style.backgroundColor = isDarkMode ? '#020617' : '#f8fafc';
     document.body.style.color = isDarkMode ? '#e2e8f0' : '#334155';
   }, [isDarkMode]);
 
-  const bgMain = isDarkMode ? "bg-slate-950" : "bg-slate-50"; // main background color
-  const textMain = isDarkMode ? "text-slate-200" : "text-slate-700"; // main text color
-
-  //-----------------------------------------------
+  const bgMain = isDarkMode ? "bg-slate-950" : "bg-slate-50"; 
+  const textMain = isDarkMode ? "text-slate-200" : "text-slate-700"; 
 
   return (
     <ThemeProvider theme={theme}> 
-    {/* provide the theme to the whole app */}
       <div 
-        dir={isRTL ? 'rtl' : 'ltr'} // set text direction based on language
+        dir={isRTL ? 'rtl' : 'ltr'} 
         className={`min-h-screen ${bgMain} ${textMain} selection:bg-cyan-500 selection:text-white font-sans overflow-x-hidden transition-colors duration-300`}
       >
         <BackgroundGlow />
         <Navbar /> 
-   
         
         <main>
           <Hero />
@@ -64,10 +55,10 @@ const AppContent = () => {
           <About /> 
           <Projects /> 
           <Skills />
+          <Certifications />
           <Contact /> 
-               <Footer /> 
+          <Footer /> 
         </main>
-
       </div>
     </ThemeProvider>
   );
@@ -77,11 +68,10 @@ const App = () => {
   return (
     <LanguageProvider> 
       <ThemeContextProvider> 
-        <AppContent /> {/* main content of the app */}
+        <AppContent /> 
       </ThemeContextProvider>
     </LanguageProvider>
   );
 };
 
-export default App; 
-// export the whole App so index.jsx can use it
+export default App;

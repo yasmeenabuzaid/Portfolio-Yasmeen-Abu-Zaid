@@ -17,6 +17,7 @@ const Navbar = () => {
 
   const navBg = isDarkMode ? "bg-slate-950/80" : "bg-white/80";
   const borderCol = isDarkMode ? "border-slate-800" : "border-slate-200";
+  const navItems = ['About', 'Experience', 'Projects', 'Skills', 'Certifications', 'Contact'];
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? `${navBg} backdrop-blur-md border-b ${borderCol} py-3` : 'bg-transparent py-6'}`}>
@@ -26,13 +27,13 @@ const Navbar = () => {
         </div>
         
         <div className="hidden md:flex items-center space-x-8 rtl:space-x-reverse">
-          {['About', 'Experience', 'Projects', 'Skills', 'Contact'].map((item) => (
+          {navItems.map((item, index) => (
             <button 
               key={item}
               onClick={() => scrollTo(item.toLowerCase())}
               className={`text-sm font-medium transition-colors relative group ${activeSection === item.toLowerCase() ? 'text-cyan-400' : 'hover:text-cyan-400'}`}
             >
-              <span className="text-cyan-400 mx-1">0{['About', 'Experience', 'Projects', 'Skills', 'Contact'].indexOf(item) + 1}.</span>
+              <span className="text-cyan-400 mx-1">0{index + 1}.</span>
               {t.nav[item.toLowerCase()]}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
             </button>
