@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio-Yasmeen-Abu-Zaid/static/css/main.73d9b74b.css",
-    "main.js": "/Portfolio-Yasmeen-Abu-Zaid/static/js/main.b38d3a36.js",
+    "main.css": "/Portfolio-Yasmeen-Abu-Zaid/static/css/main.60dc7f64.css",
+    "main.js": "/Portfolio-Yasmeen-Abu-Zaid/static/js/main.edc037e2.js",
     "static/js/453.f52058e7.chunk.js": "/Portfolio-Yasmeen-Abu-Zaid/static/js/453.f52058e7.chunk.js",
     "static/media/profile.jpg": "/Portfolio-Yasmeen-Abu-Zaid/static/media/profile.cecc23ecc03442ad3387.jpg",
     "index.html": "/Portfolio-Yasmeen-Abu-Zaid/index.html",
-    "main.73d9b74b.css.map": "/Portfolio-Yasmeen-Abu-Zaid/static/css/main.73d9b74b.css.map",
-    "main.b38d3a36.js.map": "/Portfolio-Yasmeen-Abu-Zaid/static/js/main.b38d3a36.js.map",
+    "main.60dc7f64.css.map": "/Portfolio-Yasmeen-Abu-Zaid/static/css/main.60dc7f64.css.map",
+    "main.edc037e2.js.map": "/Portfolio-Yasmeen-Abu-Zaid/static/js/main.edc037e2.js.map",
     "453.f52058e7.chunk.js.map": "/Portfolio-Yasmeen-Abu-Zaid/static/js/453.f52058e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73d9b74b.css",
-    "static/js/main.b38d3a36.js"
+    "static/css/main.60dc7f64.css",
+    "static/js/main.edc037e2.js"
   ]
 }
